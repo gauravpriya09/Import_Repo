@@ -5,8 +5,7 @@ pipeline {
         stage('Hello') {
             steps {
                 echo 'Hello World'
-                echo 'Webhooks Conf'
-                echo "testing"
+                echo 'Webhooks'
             }
         }
     }
